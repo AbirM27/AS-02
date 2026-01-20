@@ -68,3 +68,129 @@
 .color {
     background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 }
+
+
+
+
+.hero {
+
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.image {
+    background-image: url(hero-bg.png);
+    width: 1600px;
+    height: 760px;
+
+}
+
+.circle-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    background-image: url(hero-circle.png);
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.microphone {
+    width: 116.67px;
+    height: 175px;
+}
+
+.badge {
+    position: absolute;
+    width: 75px;
+    height: 38px;
+    top: 5px;
+    right: 10px;
+    gap: 10px 10px;
+    background: #00FF88;
+    color: #1A0B2E;
+    padding: 8px 16px 8px 16px;
+    border-radius: 1000px;
+    font-size: 18px;
+    font-weight: medium
+}
+
+
+
+.hero-text h1 {
+    font-size: xx-large;
+
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: inline-flex;
+
+
+}
+
+.spotify {
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: white;
+    width: 201px;
+    height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    gap: 8px;
+    border-radius: 10000px;
+}
+
+.subscribe {
+    width: 147px;
+    height: 44px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 8px;
+    border-radius: 10000px;
+    background: none;
+    border: 2px solid #00FF88;
+    color: #00FF88;
+
+}
+
+.one {
+    text-align: center;
+    width: 1200px;
+    height: 222px;
+    border: 2px solid green;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .image {
+
+        width: 448px;
+        height: 480px;
+    }
+
+    .container,
+    .first,
+    .nav-links {
+        flex-direction: row;
+        width: 448px;
+        height: 60px;
+    }
+}
