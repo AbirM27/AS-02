@@ -285,17 +285,25 @@
 
 }
 
-.science {
-    background-color: #412567;
+.aura {
     width: 1600px;
     height: 1248px;
-    border: 3px solid red;
+    background-color: #412567;
+}
+
+.science {
+    background-color: #412567;
+    width: 1200px;
+    height: 538px;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
 
 .top {
     text-align: center;
     font-size: 32px;
-    margin-top: 120;
+    margin-top: 0;
 }
 
 .musics {
@@ -377,6 +385,77 @@
 }
 
 
+.host-section {
+
+    color: #fff;
+}
+
+.host-section h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.host-card {
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    align-items: center;
+    gap: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+    background: #533C72
+}
+
+.host-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.host-content h3 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.host-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 60%;
+    max-width: 760px;
+    margin-bottom: 40pxpx;
+}
+
+.socials {
+    display: flex;
+    gap: 16px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials a:hover {
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-3px);
+}
+
+.socials img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
 
 
 
@@ -417,5 +496,33 @@
 
     .musics {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .host-section {
+        padding: 60px 32px;
+    }
+
+    .host-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 36px;
+    }
+
+    .host-image img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .host-content h3 {
+        font-size: 24px;
+    }
+
+    .host-content p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .socials {
+        justify-content: center;
     }
 }
